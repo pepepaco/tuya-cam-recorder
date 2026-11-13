@@ -1,0 +1,25 @@
+# Browser profile with the logged-in session (cookies, s-sid). NEVER commit this.
+.profile/
+chromium.log
+qr.png
+
+# Captured media
+recordings/
+snapshots/
+frames/
+*.mp4
+*.webm
+*.jpg
+*.jpeg
+*.png
+
+# Local env overrides
+.env
+config.local.json
+
+# Session cookies handed from reauth.mjs to the recorder
+.pending-cookies.json
+reauth.log
+
+# Runtime state of watcher.mjs, regenerated on each run
+.watch-state.json
