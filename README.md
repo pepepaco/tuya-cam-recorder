@@ -42,7 +42,7 @@ sudo pacman -S chromium nodejs ffmpeg
 ## Install
 
 ```bash
-git clone <url-de-este-repositorio>
+git clone https://github.com/pepepaco/tuya-cam-recorder.git
 cd tuya-cam-recorder
 chmod +x run.sh
 ```
